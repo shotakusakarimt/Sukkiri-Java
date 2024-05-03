@@ -1,4 +1,3 @@
-package renshu;
 
 public class Wizard {
     String name;

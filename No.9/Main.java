@@ -1,6 +1,6 @@
-package renshu;
 
 public class Main {
+    public static void main(String[] args){
     Hero h1=new Hero();
     h1.name="しょうた";
     h1.hp=100;
@@ -12,5 +12,6 @@ public class Main {
     w.hp=50;
     w.heal(h1);
     w.heal(h2);
-    w.heal(w);
+    //w.heal(w);
+    }
 }

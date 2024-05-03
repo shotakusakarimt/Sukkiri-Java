@@ -1,8 +1,7 @@
-package renshu;
 
 public class Hero{
      String name;
-     Int hp;
+     int hp;
      Sword sword;
      public void attack(){
         System.out.println(this.name+"は攻撃した！");
